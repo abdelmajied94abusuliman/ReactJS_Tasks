@@ -1,0 +1,504 @@
+/*                                             Let's make somehting for all desgin:                            */
+/*                                             Let's make somehting for all desgin:                            */
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: rgb(0, 0, 31);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 31, 1) 18%,
+    rgba(0, 29, 69, 1) 38%,
+    rgba(0, 60, 88, 1) 58%,
+    rgb(0, 121, 197) 78%,
+    rgb(234, 234, 234) 100%
+  );
+}
+
+/*                                             Let's Design Header Now:                            */
+/*                                             Let's Design Header Now:                            */
+/*                                             Let's Design Header Now:                            */
+/*                                             Let's Design Header Now:                            */
+
+header {
+  width: 100%;
+  background-color: rgba(0, 0, 31, 1);
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  z-index: 999;
+  position: fixed;
+}
+
+#my-logo img {
+  height: 60px;
+  margin-left: 35px;
+}
+
+#for-small-screens {
+  display: none;
+}
+
+.offcanvas-body {
+  background-color: #00001f;
+}
+
+.offcanvas-header {
+  background-color: #00001f;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.nav-icon {
+  margin: 15px;
+  margin-right: 35px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+#du-en {
+  position: relative;
+  right: 10px;
+  margin: auto;
+  font-size: 20px;
+  background-color: rgb(177, 142, 0);
+}
+
+#du-en:hover {
+  text-decoration: underline;
+  color: rgba(0, 0, 31, 1);
+}
+
+.nav-item:hover {
+  color: rgb(177, 142, 0);
+}
+
+.btn-outline-success {
+  color: rgb(177, 142, 0);
+  border-color: rgb(177, 142, 0);
+}
+
+/*                                             Let's Design Home Page Now:                            */
+/*                                             Let's Design Home Page Now:                            */
+/*                                             Let's Design Home Page Now:                            */
+/*                                             Let's Design Home Page Now:                            */
+
+#home {
+  height: 100vh;
+  background-image: url(./components/img/MyPicture.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.name-job-objective {
+  padding-top: 50px;
+  margin-left: 55px;
+  width: 90%;
+  color: white;
+  font-family: "Fredoka One", "cursive", sans-serif, serif, "Times New Roman",
+    Times, serif;
+}
+
+#myname {
+  padding-top: 150px;
+  font-size: 65px;
+}
+
+#JobPosition {
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px;
+  width: 600px;
+  display: inline-block;
+}
+
+#objective {
+  width: 60%;
+  font-size: 18px;
+}
+
+#call-button {
+  display: inline-block;
+  font-family: "Dancing Script", "cursive;", sans-serif;
+  text-decoration: none;
+  color: rgb(0, 0, 31);
+  letter-spacing: 1px;
+  margin-left: 50px;
+  margin-top: 50px;
+  font-weight: 400;
+  font-size: 1.6em;
+  background-color: rgb(177, 142, 0);
+  padding: 20px;
+  border-radius: 15px;
+  transition: 0.7s ease;
+}
+
+#call-button:hover {
+  background-color: rgb(217, 237, 255);
+  color: rgb(0, 0, 31);
+  transform: scale(1.1);
+}
+
+#section-gradient-color {
+  background: rgb(0, 0, 31);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 31, 1) 18%,
+    rgba(0, 29, 69, 1) 38%,
+    rgba(0, 60, 88, 1) 58%,
+    rgba(0, 69, 113, 1) 78%,
+    rgba(0, 100, 164, 1) 100%
+  );
+  background-size: cover;
+  background-position: center;
+  padding-top: 150px;
+  width: 100%;
+}
+
+/*                                             Let's Design Title of Sections Now:                            */
+/*                                             Let's Design Title of Sections Now:                            */
+
+.main-sections {
+  border-radius: 20px;
+  width: 250px;
+  height: 75px;
+  color: rgb(177, 142, 0);
+  text-align: center;
+  width: 350px;
+  margin: auto;
+  font-size: 30px;
+  padding-top: 15px;
+  font-family: "Graduate", "cursive", sans-serif;
+}
+
+/*                                             Let's Design Education Now:                            */
+/*                                             Let's Design Education Now:                            */
+/*                                             Let's Design Education Now:                            */
+/*                                             Let's Design Education Now:                            */
+
+#container-my-education-stages {
+  margin-top: 100px;
+  padding: 15px;
+}
+
+.stages-education {
+  border: 2px solid rgb(177, 142, 0);
+  text-align: center;
+  font-weight: bold;
+  transition: 0.7s ease;
+  color: white;
+}
+
+.stages-education:hover {
+  transform: scale(1.2);
+}
+
+.stages-education:hover .font-awesome {
+  color: rgb(218, 0, 138);
+}
+
+.stages-education > span {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  color: rgb(177, 142, 0);
+}
+
+.font-awesome {
+  color: white;
+  font-size: 18px;
+}
+
+#training {
+  height: 250px;
+  width: 250px;
+  border-radius: 125px;
+  font-size: 22px;
+  padding-top: 35px;
+  margin-left: 200px;
+}
+
+#master {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  font-size: 21px;
+  padding-top: 10px;
+  margin-top: 35px;
+}
+
+#bachelor {
+  height: 150px;
+  width: 150px;
+  border-radius: 750px;
+  font-size: 18px;
+  padding-top: 18px;
+  margin-top: 70px;
+}
+
+#high-school {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  font-size: 15px;
+  padding-top: 10px;
+  margin-right: 200px;
+  margin-top: 110px;
+}
+
+/*                                             Let's Design Experiences Now:                            */
+/*                                             Let's Design Experiences Now:                            */
+/*                                             Let's Design Experiences Now:                            */
+/*                                             Let's Design Experiences Now:                            */
+
+.my-experience {
+  margin: 50px;
+  padding: 15px;
+  width: 500px;
+  height: 300px;
+  border: 2px solid rgb(177, 142, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 50px;
+}
+
+.job-description {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/*                                             Let's Design Projects Now:                            */
+/*                                             Let's Design Projects Now:                            */
+/*                                             Let's Design Projects Now:                            */
+/*                                             Let's Design Projects Now:                            */
+
+h4 {
+  text-align: center;
+}
+
+.grid-container-for-projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.my-projects {
+  margin: 50px;
+  width: 27vw;
+  height: 53vh;
+  border: 2px solid rgb(177, 142, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 50px;
+  transition: 0.7s ease;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.my-projects:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 20px black;
+  opacity: 1;
+}
+
+.projects-images {
+  width: 26.8vw;
+  height: 33vh;
+  border-radius: 47px 47px 0px 0px;
+  margin-bottom: 3%;
+}
+
+.my-projects a {
+  color: rgb(177, 142, 0);
+}
+
+.project-name {
+  text-decoration: none;
+  color: white !important ;
+}
+
+.my-projects a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.my-projects p {
+  margin: 10px;
+}
+
+/*                                             Let's Design Skills Now:                            */
+/*                                             Let's Design Skills Now:                            */
+/*                                             Let's Design Skills Now:                            */
+/*                                             Let's Design Skills Now:                            */
+
+#progress-container {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: 200px 200px 200px;
+  gap: 5vw;
+  padding-left: 15vw;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.progress-skills {
+  background-color: rgb(0, 0, 75);
+  border: 2px solid rgb(177, 142, 0);
+  border-radius: 15px;
+}
+
+.progress-skills a img {
+  margin-top: 35px;
+  margin-left: 50px;
+}
+
+.progress-skills a span {
+  display: block;
+  width: 200px;
+  text-align: center;
+}
+
+.skills-logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 35px;
+  transition: 0.7s ease;
+}
+
+.my-skills {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  transition: 0.7s ease;
+}
+
+.progress-skills:hover {
+  transform: scale(1.1);
+}
+
+.anch-decoration {
+  text-decoration: none;
+}
+
+.dropdown-skills {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content-skills {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content-skills a {
+  color: rgb(177, 142, 0);
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+.partial-skills {
+  display: inline-block;
+  margin-left: -40px;
+}
+
+.icon-soft-skill {
+  position: relative;
+  bottom: 15px;
+  right: 40px;
+  display: inline;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.dropdown-content-skills a:hover {
+  background-color: rgb(0, 0, 31);
+}
+.dropdown-skills:hover .dropdown-content-skills {
+  display: block;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+  margin: 70px;
+  font-size: 50px;
+}
+
+#grid-container-one-column {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+  margin: 50px;
+  font-size: 20px;
+  text-align: center;
+  display: none;
+}
+
+#skills .grid-container {
+  display: none;
+}
+
+/*                                             Let's Design Footer Now:                            */
+/*                                             Let's Design Footer Now:                            */
+/*                                             Let's Design Footer Now:                            */
+/*                                             Let's Design Footer Now:                            */
+
+#contact {
+  padding-bottom: 35px;
+  background: rgb(0, 25, 41);
+}
+
+#qoutes {
+  font-family: "Dancing Script", "cursive;", sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 25px;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: 7;
+}
+
+.links {
+  transition: 0.7s ease;
+}
+
+#grid-container div i {
+  font-size: 27px;
+}
+
+.links:hover {
+  transform: scale(1.3);
+}
+
+.fa-whatsapp:hover {
+  color: rgb(0, 218, 0) !important;
+}
+
+.fa-envelope:hover {
+  color: rgb(218, 0, 138) !important;
+}
+
+.fa-linkedin:hover {
+  color: rgb(0, 128, 255) !important;
+}
+
+.fa-github:hover {
+  color: rgb(0, 0, 0);
+}
+
+/*                                            Make My Website Responsive :                                */
+/*                                            Make My Website Responsive :                                */
+/*                                            Make My Website Responsive :                                */
+/*                                            Make My Website Responsive :                                */
